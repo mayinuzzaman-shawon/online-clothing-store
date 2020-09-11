@@ -1,0 +1,614 @@
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.container{
+	width: 100%;
+	/*margin: auto;*/
+	overflow: hidden;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+
+header{
+  width:100%;
+  background:#ffffff;
+  color:#000000;
+  padding-top:5px;
+  min-height:40px;
+  box-shadow: 0 8px 6px -6px #ccc;
+  
+}
+
+header a{
+  color:#5A5A5A;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  font-family: sans-serif;
+  font-weight:bold;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand{
+  float:left;
+}
+
+header nav{
+  float:left;
+  margin-top:40px;
+}
+
+header a:hover{
+  color:#AAAAAA;
+  font-weight:bold;
+}
+header #search{
+	float: right;
+	margin-right: 5%;
+}
+header #search input[type="text"]{
+	float:right;
+    padding: 8px;
+    margin-top: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.search_btn{
+	margin-top: 30px;
+	float: right;
+	background:#EEEEEE;
+	border: none;
+ }
+
+header #signing nav{
+	float:right;
+	margin-left:5%;
+    margin-top:30px;	
+}  
+.button_1{
+  height:38px;
+  background:#ffffff;
+  border:0px solid grey;
+  padding-left: 5px;
+  padding-right:20px;
+  color:#5A5A5A;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  font-family: sans-serif;
+  font-weight:bold;
+  
+}
+
+#showcase_arrival{
+  min-height: 550px;
+  background:url('../img/men_women.png') no-repeat ;
+  background-size:100% 100%;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase_arrival h1{
+	font-family: sans-serif;
+  margin-top:100px;
+  font-size:60px;
+  margin-bottom:0px;
+}
+
+#showcase_arrival h3{
+	font-family: sans-serif;
+  font-size:30px;
+  margin-top:10px;
+  margin-bottom:40px;
+}
+
+#showcase_arrival p{
+  
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size:25px;
+  
+}
+
+#showcase_various #mens_classic{
+	float:left;
+	height:420px;
+	width:360px;
+	background:url('../img/mens_classic.png') no-repeat;
+	margin-top:70px;
+	margin-bottom:50px;
+	margin-right:50px;
+	margin-left:80px;
+}
+
+#showcase_various #mens_classic h1{
+	font-family:sans-serif;
+	color:#193955;
+	margin-top:70%;
+	padding-top:10px;
+	font-size:25px;
+}
+
+#showcase_various #mens_classic p{
+	font-family:sans-serif;
+	color:#193955;
+	font-size:20px;
+}
+
+#showcase_various #mens_classic h2 a{
+	font-family:sans-serif;
+	color:#193955;
+	font-size:25px;
+}
+
+#showcase_various #womens_exclusive{
+	float:center;
+	height:420px;
+	width:360px;
+	background:url('../img/womens_exclusive.png') no-repeat;
+	margin-top:70px;
+	margin-bottom:50px;
+	margin-right:450px;
+	margin-left:490px;
+}
+
+#showcase_various #womens_exclusive h1{
+	
+	font-family:sans-serif;
+	color:#193955;
+	/*margin-top:70px;*/
+	padding-top:73%;
+	font-size:25px;
+}
+
+#showcase_various #womens_exclusive p{
+	
+	font-family:sans-serif;
+	color:#193955;
+	font-size:20px;
+}
+
+#showcase_various #womens_exclusive h2 a{
+	
+	font-family:sans-serif;
+	color:#193955;
+	font-size:25px;
+}
+#showcase_various #kids_casual{
+	float:right;
+	height:420px;
+	width:360px;
+	background:url('../img/kids_casual.png') no-repeat;
+	margin-top:-470px;
+	margin-bottom:50px;
+	margin-right:70px;
+	margin-left:60px;
+}
+
+#showcase_various #kids_casual h1{
+	
+	font-family:sans-serif;
+	color:#193955;
+	padding-top:67%;
+	font-size:25px;
+}
+
+#showcase_various #kids_casual p{
+	
+	font-family:sans-serif;
+	color:#193955;
+	font-size:20px;
+}
+
+#showcase_various #kids_casual h2 a{
+	
+	font-family:sans-serif;
+	color:#193955;
+	font-size:25px;
+}
+
+#showcase_sports #discover{
+	height:60px;
+	width:100%;
+	margin-top:-10px;
+}
+
+#showcase_sports #discover h1{
+	text-align:center;
+	color:#193955;
+}
+
+#showcase_sports #sports{
+	float:left;
+	height:450px;
+	width:674px;
+ 	background-color:#193955;
+	
+}
+
+#showcase_sports #sports h1{
+	color:#ffffff;
+	text-align:center;
+	padding-top:120px;
+}
+
+#showcase_sports #sports p{
+	color:#ffffff;
+	width: 80%;
+	text-align:center;
+	padding-left:60px;
+		
+}
+
+.shop_btn{
+	
+	height:38px;
+    background:#ffffff;
+    border:0px solid grey;
+    padding-left:15px;
+    padding-right:15px;
+    color:#193955;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+    font-family: sans-serif;
+    font-weight:bold;
+	margin-left:275px;
+	margin-top:15px;
+}
+
+#showcase_sports #sportswear{
+	float: right;
+	height:450px;
+	width:675px;
+	background:url('../img/sports_wear.png') no-repeat;
+	
+}
+
+.shop_btn:hover a{
+	text-decoration:none;
+	color:#000000;
+	
+	height:38px;
+	
+}
+
+.shop_btn a{
+	text-decoration:none;
+	background:#ffffff;
+	color:#193955;
+	
+}
+
+#popular_products #popular h1{
+	color:#193955;
+	text-align:center;
+	padding-top:40px;
+}
+
+#popular_products .pop_products_img{
+	
+    height: 320px;
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 20% 20% 20% 20% 20%; /* five containers (use 25% for four, and 50% for two, etc) */
+    padding: 10px 10px 10px 10px;
+	margin-botbtom:5% 5% 5% 5% 5%;
+	
+}
+
+#popular_products #pop_1{
+	margin-left:75px;
+	marginm-bottom:50px;
+	
+}
+
+#popular_products .pop_products_info{
+	color:#5e5656;
+	/*height:30px;*/
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 20% 20% 20% 20% 20%; /* five containers (use 25% for four, and 50% for two, etc) */
+    padding: 10px 10px 10px 10px;
+	font-family: sans-serif;
+	font-size:15px;
+	
+	
+	
+}
+
+#popular_products  #pop_products_1 h3{
+	margin-left: 100px;
+	
+}
+
+#popular_products  #pop_products_2 h3{
+	margin-left: 60px;
+}
+
+#popular_products  #pop_products_3 h3{
+	margin-left: 90px;
+}
+
+#popular_products  #pop_products_4 h3{
+	margin-left: 60px;
+}
+
+#popular_products  #pop_products_5 h3{
+	margin-left: 100px;
+}
+
+#bottom .bottom_content{
+	background:#193955;
+	height: 300px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 100% 100% 100% ; 
+    padding: 5% 18% 18% 5%;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-sizev:15px;
+}
+
+#bottom #about_elegance{
+	margin-left: 5px; 
+		
+}
+
+footer p{
+	margin:10px;
+}
+
+/*mens.php*/
+
+#mens_cloth .menz{
+	height: 450px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25% ; 
+    padding: 10px 10px 10px 0px;
+	margin-left:10px;
+}
+
+#mens_cloth .menz_info{
+	color:#494444;
+	/* height:30px; */
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25%; 
+    padding: 0% 8% 5% 6%;
+	font-family: sans-serif;
+	mfont-size:15px;
+}
+
+#mens_cloth .menzz{
+	height: 450px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25% ; 
+    padding: 10px;
+	margin-left:10px;
+}
+
+#mens_cloth .menzz_info{
+	color:#494444;
+	/* height:30px; */
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25%; 
+    padding: 0% 8% 5% 4%;
+	font-family: sans-serif;
+	mfont-size:15px;
+}
+
+.menz_cart_btn{
+	height:38px;
+    background:#193955;
+    border:0px solid grey;
+    padding-left:15px;
+    padding-right:15px;
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight:bold;
+	/* margin-left:275px; */
+	/* margin-top:15px; */
+}
+
+.menz_cart_btn a{
+	text-decoration:none;
+	background:#193955;
+	color:#ffffff;
+}
+
+#mens_cloth #menz_apparel_coll h1{
+	text-align:center;
+	color:#193955;
+}
+
+#womens_cloth .womenz{
+	height: 450px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25% ; /* five containers (use 25% for four, and 50% for two, etc) */
+    padding: 10px;
+	margin-left:10px;
+}
+
+#womens_cloth .womenz_info{
+	color:#494444;
+	/* height:30px; */
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25%; 
+    padding: 0% 8% 5% 5%;
+	font-family: sans-serif;
+	mfont-size:15px;
+}
+
+#womens_cloth .womenzz{
+	height: 450px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25% ; /* five containers (use 25% for four, and 50% for two, etc) */
+    padding: 10px;
+	margin-left:10px;
+}
+
+#womens_cloth .womenzz_info{
+	color:#494444;
+	/* height:30px; */
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25%; 
+    padding: 0% 9.5% 5% 6%;
+	font-family: sans-serif;
+	/* font-weight:500; */
+}
+
+.womenz_cart_btn{
+	height:38px;
+    background:#193955;
+    border:0px solid grey;
+    padding-left:12px;
+    padding-right:10px;
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight:bold;
+	/* margin-left:275px; */
+	/* margin-top:15px; */
+}
+
+.womenz_cart_btn a{
+	text-decoration:none;
+	background:#193955;
+	color:#ffffff;
+}
+
+#womens_cloth #womenz_clothing_coll h1{
+	text-align:center;
+	color:#193955;
+}
+
+///////////////////////
+
+
+#kids_cloth .kidz{
+	height: 450px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25% ; /* five containers (use 25% for four, and 50% for two, etc) */
+    padding: 10px;
+	margin-left:10px;
+}
+
+#kids_cloth .kidz_info{
+	color:#494444;
+	/* height:30px; */
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25%; 
+    padding: 0% 8% 5% 5%;
+	font-family: sans-serif;
+	mfont-size:15px;
+}
+
+#kids_cloth .kidzz{
+	height: 450px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25% ; /* five containers (use 25% for four, and 50% for two, etc) */
+    padding: 10px;
+	margin-left:10px;
+}
+
+#kids_cloth .kidzz_info{
+	color:#494444;
+	/* height:30px; */
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25%; 
+    padding: 0% 9.5% 5% 6%;
+	font-family: sans-serif;
+	/* font-weight:500; */
+}
+
+.kidz_cart_btn{
+	height:38px;
+    background:#193955;
+    border:0px solid grey;
+    padding-left:12px;
+    padding-right:10px;
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight:bold;
+	/* margin-left:275px; */
+	/* margin-top:15px; */
+}
+
+.kidz_cart_btn a{
+	text-decoration:none;
+	background:#193955;
+	color:#ffffff;
+}
+
+#kids_cloth #kidz_cloth_coll h1{
+	text-align:center;
+	color:#193955;
+}
+
+.entry{
+	height: 450px;
+	border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25% ; 
+    padding: 10px 10px 10px 0px;
+	margin-left:10px;
+}
+
+.entry #detail{
+	color:#494444;
+	/* height:30px; */
+    border: 0px;
+    box-sizing: border-box;
+	float: left;
+    width: 25% 25% 25% 25%; 
+    padding: 0% 8% 5% 6%;
+	font-family: sans-serif;
+}

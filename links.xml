@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+  <link>
+    <title>Mens Cloth</title>
+    <url>mens_cloth.php</url>
+  </link>
+  <link>
+    <title>Womens Cloth</title>
+    <url>womens_cloth.php</url>
+  </link>
+  <link>
+    <title>Kids Cloth</title>
+    <url>kids_cloth.php</url>
+  </link>
+  <link>
+    <title>Admin</title>
+    <url>admin_login.php</url>
+  </link>
+  <link>
+    <title>Registration</title>
+    <url>customer_registration.php</url>
+  </link>
+  <link>
+    <title>Log In</title>
+    <url>customer_login.php</url>
+  </link>
+</pages>
